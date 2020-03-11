@@ -1,0 +1,66 @@
+
+/*fixed nav*/
+.nav{
+    position: fixed;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    
+}
+
+/* grid layout*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.slides{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    margin-top: 70px;
+    text-align: center;
+    border: 1px solid black;
+    animation: slideshow 10s  infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+/*
+@keyframes slideshow{
+    0%{
+        background-image: url("../image/camp1.jpg");
+    }
+    25%{
+        background-image: url("../image/camp2.jpeg");
+    }
+    50%{
+        background-image: url("../image/camp3.jpg");
+    }
+    75%{
+        background-image: url("../image/camp4.jpeg");
+    }
+    99.9%{
+        background-image: url("../image/camp1.jpg");
+    }
+}
+*/
+.main{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    border: 1px solid black;
+}
+.main2{
+    grid-column:3;
+    grid-row: 2;
+    border: 1px solid black;
+}
+.footer{
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    
+    border: 1px solid black;
+    text-align:center;
+}
+
