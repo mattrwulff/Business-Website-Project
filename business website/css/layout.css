@@ -1,14 +1,32 @@
 
-/*fixed nav*/
-.nav{
+/* navigation*/
+
+#navbar {
+    background-color:rgb(255, 219, 119);
     position: fixed;
-    background-color: grey;
-    color: white;
+    top: -50px;
     width: 100%;
-    height: 70px;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #363434;
     text-align: center;
-    
-}
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(255, 211, 92);
+    color: black;
+  }
+
+
+
 
 /* grid layout*/
 .container{
@@ -18,14 +36,17 @@
 }
 .slides{
     grid-column: 1 / span 3;
-    grid-row: 1;
-    margin-top: 70px;
+    
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     animation: slideshow 10s  infinite;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 500px;
+    font-size:500%;
+    vertical-align: middle;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 /*
 @keyframes slideshow{
@@ -33,7 +54,7 @@
         background-image: url("../image/camp1.jpg");
     }
     25%{
-        background-image: url("../image/camp2.jpeg");
+        background-image: url("../image/camp2.jpg");
     }
     50%{
         background-image: url("../image/camp3.jpg");
@@ -47,18 +68,53 @@
 }
 */
 .main{
-    grid-column: 1 / span 2;
+    grid-column: 1/ span 2;
     grid-row: 2;
-    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin-left: 5%;
 }
+
+
+.offer{
+    grid-column:1/span 2;
+    grid-row: 1;
+}
+.about{
+    grid-column:1;
+    grid-row: 2;
+    
+}
+.about2{
+    grid-column:2;
+    grid-row: 2;
+    
+}
+
+.fun{
+    padding:30px;
+    width:270px;
+    height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main2{
     grid-column:3;
     grid-row: 2;
-    border: 1px solid black;
+    
+
+}
+.main3{
+    grid-column:2/span 3;
+    grid-row: 3;
+    background-color: rgb(255, 143, 143);
 }
 .footer{
     grid-column: 1 / span 3;
-    grid-row: 3;
+    grid-row: 4;
     
     border: 1px solid black;
     text-align:center;
