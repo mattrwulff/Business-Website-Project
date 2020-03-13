@@ -1,12 +1,39 @@
 
 /* navigation*/
 
+#nav {
+    background-color: rgb(231, 208, 162);
+    position: fixed;
+    font-family: 'Baloo Chettan 2', cursive;
+    width: 100%;
+    display: block;
+    font-weight: bolder;
+    transition: top 0.3s;
+  }
+
+  #nav a {
+    float: left;
+    display: block;
+    color: #363434;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  #nav a:hover {
+    background-color: rgb(197, 177, 138);
+    color: black;
+  }
+
 #navbar {
-    background-color:rgb(255, 219, 119);
+    background-color:rgb(231, 208, 162);
     position: fixed;
     top: -50px;
     width: 100%;
     display: block;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bolder;
     transition: top 0.3s;
   }
   
@@ -21,7 +48,7 @@
   }
   
   #navbar a:hover {
-    background-color: rgb(255, 211, 92);
+    background-color: rgb(197, 177, 138);
     color: black;
   }
 
@@ -36,9 +63,10 @@
 }
 .slides{
     grid-column: 1 / span 3;
-    
+    margin-top:100px;
     text-align: center;
-    border-bottom: 1px solid black;
+    
+    background-image: url("../image/mainpic.jpg");
     animation: slideshow 10s  infinite;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -74,6 +102,7 @@
     grid-template-columns: 1fr 1fr ;
     font-family: 'Baloo Chettan 2', cursive;
     margin-left: 5%;
+    
 }
 
 
@@ -99,6 +128,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .main2{
@@ -107,11 +137,37 @@
     
 
 }
+.main3-3{
+    grid-column: 1/span 3;
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    background-color: rgb(231, 208, 162);
+}
 .main3{
     grid-column:2/span 3;
     grid-row: 3;
-    background-color: rgb(255, 143, 143);
+    background-color: rgb(231, 208, 162);
+    font-family: 'Baloo Chettan 2', cursive;
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    padding-left: 20px;
+
 }
+
+
+
+
+.activity{
+    grid-column:1/span 2;
+    grid-row: 1;
+}
+.activity2{
+    grid-column:1;
+    grid-row: 2;
+    
+}
+
 .footer{
     grid-column: 1 / span 3;
     grid-row: 4;
