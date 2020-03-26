@@ -9,3 +9,6 @@ function scrollFunction() {
     document.getElementById("nav").style.visibility="visible";
   }
 }
+function sumit(){
+  alert("your message was sent")
+}

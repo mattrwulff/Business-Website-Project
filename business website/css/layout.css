@@ -1,6 +1,10 @@
 
 /* navigation*/
-
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
 #nav {
     background-color: rgb(231, 208, 162);
     position: fixed;
