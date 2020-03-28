@@ -1,12 +1,13 @@
 /*laptop*/
 @media only screen and (min-width: 1200px) {
-    body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
+    body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(230, 230, 230);}
+  /*this is for the sign up form*/
     * {box-sizing: border-box;}
-    
+  /*this is all fo the styles for the text areas*/
     input[type=text], select, textarea {
       width: 100%;
       padding: 12px;
-      border: 1px solid rgb(197, 177, 138);
+      border: 1px solid rgb(194, 75, 15);
       background-color: rgb(221, 221, 221);
       color:black;
       box-sizing: border-box;
@@ -14,7 +15,19 @@
       margin-bottom: 16px;
       resize: vertical;
     }
-    
+    /*this is the style for the email section*/
+    input[type=email], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgb(194, 75, 15);
+      background-color: rgb(221, 221, 221);
+      color:black;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    /*this is the style for the submit button*/
     input[type=submit] {
       background-color: rgb(221, 221, 221);
       align-content: center;
@@ -25,7 +38,7 @@
       
       cursor: pointer;
     }
-    
+    /*this is for when you hover over the submit button*/
     input[type=submit]:hover {
       background-color: rgb(202, 202, 202);
       color: rgb(0, 0, 0);
@@ -33,23 +46,27 @@
     .contactword{
         font-size: 200%;
     }
+    /*this is for the styles of the page*/
     .container {
     position: relative;
     top: 90px;
     background-color: rgb(255, 255, 255);
     color: black;
-    
+    margin-left:20%;
+    margin-right:20%;
     padding: 20px;
     font-family: 'Odibee Sans', cursive;
-    height: 100vh;
+    
     }
+    /*this is for the logos in the nav*/
     .logo{
         width: 200px;
         height: 100px;
         float: left;
     }
+   /*this is for the nav*/
     #nav {
-        background-color: rgb(231, 208, 162);
+        background-color: rgb(217, 82, 14);
         position: fixed;
         font-family: 'Baloo Chettan 2', cursive;
         width: 100%;
@@ -60,7 +77,7 @@
       #nav a {
         float: left;
         display: block;
-        color: #363434;
+        color: #ffffff;
         text-align: center;
         padding: 35px;
         text-decoration: none;
@@ -68,21 +85,21 @@
       }
     
       #nav a:hover {
-        background-color: rgb(197, 177, 138);
-        color: black;
+        background-color: rgb(194, 75, 15);
+        color: rgb(255, 255, 255);
       }
    
     }
     
     /*tablet*/
     @media only screen and (max-width: 1199px) and (min-width: 800px) {
-      body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
+      body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);}
     * {box-sizing: border-box;}
-    
+    /*this is all for the styles for the text areas*/
     input[type=text], select, textarea {
       width: 100%;
       padding: 12px;
-      border: 1px solid rgb(197, 177, 138) ;
+      border: 1px solid rgb(194, 75, 15) ;
       background-color: rgb(221, 221, 221);
       color:black;
       box-sizing: border-box;
@@ -90,7 +107,19 @@
       margin-bottom: 16px;
       resize: vertical;
     }
-    
+    /*this is the style for the email section*/
+    input[type=email], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgb(194, 75, 15) ;
+      background-color: rgb(221, 221, 221);
+      color:black;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+     /*this is the style for the submit button*/
     input[type=submit] {
       background-color: rgb(221, 221, 221);
       align-content: center;
@@ -101,7 +130,7 @@
       
       cursor: pointer;
     }
-    
+    /*this is for when you hover over the submit button*/
     input[type=submit]:hover {
       background-color: rgb(202, 202, 202);
       color: black;
@@ -109,23 +138,26 @@
     .contactword{
         font-size: 200%;
     }
+    /*this is for the styles of the page*/
     .container {
     position: relative;
-    top: 90px;
+    top: 50px;
     background-color: rgb(255, 255, 255);
     color: black;
     
     padding: 20px;
     font-family: 'Odibee Sans', cursive;
-    height: 100vh;
+   
     }
+    /*this is for the logos in the nav*/
     .logo{
         width: 200px;
         height: 100px;
         float: left;
     }
+    /*this is for the nav*/
     #nav {
-        background-color: rgb(231, 208, 162);
+        background-color: rgb(217, 82, 14);
         position: fixed;
         font-family: 'Baloo Chettan 2', cursive;
         width: 100%;
@@ -138,7 +170,7 @@
       #nav a {
         float: left;
         display: block;
-        color: #363434;
+        color: #ffffff;
         text-align: center;
         padding: 35px;
         text-decoration: none;
@@ -146,20 +178,20 @@
       }
     
       #nav a:hover {
-        background-color: rgb(197, 177, 138);
-        color: black;
+        background-color: rgb(194, 75, 15);
+        color: rgb(255, 255, 255);
       }
    
     }
     /*phone*/
     @media only screen and (max-width: 799px) {
-      body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
+      body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);}
     * {box-sizing: border-box;}
-    
+    /*this is all fo the styles for the text areas*/
     input[type=text], select, textarea {
       width: 100%;
       padding: 12px;
-      border: 1px solid rgb(231, 208, 162);
+      border: 1px solid rgb(217, 82, 14);
       background-color: rgb(221, 221, 221);
       color:black;
       box-sizing: border-box;
@@ -167,7 +199,19 @@
       margin-bottom: 16px;
       resize: vertical;
     }
-    
+    /*this is the style for the email section*/
+    input[type=email], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgb(217, 82, 14);
+      background-color: rgb(221, 221, 221);
+      color:black;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    /*this is the style for the submit button*/
     input[type=submit] {
       background-color: rgb(221, 221, 221);
       align-content: center;
@@ -178,7 +222,7 @@
       
       cursor: pointer;
     }
-    
+    /*this is for when you hover over the submit button*/
     input[type=submit]:hover {
       background-color: rgb(202, 202, 202);
       color: black;
@@ -186,24 +230,26 @@
     .contactword{
         font-size: 200%;
     }
+    /*this is for the styles of the page*/
     .container {
     position: relative;
-    top: 90px;
+    top: 200px;
     background-color: rgb(255, 255, 255);
     color: black;
     
     padding: 20px;
     font-family: 'Odibee Sans', cursive;
-    height: 100vh;
+   
     }
-    
+    /*this is for the logos in the nav*/
     .logo{
         width: 200px;
         height: 100px;
         float: left;
     }
+    /*this is for the nav*/
     #nav {
-        background-color: rgb(231, 208, 162);
+        background-color: rgb(217, 82, 14);
         position: fixed;
         font-family: 'Baloo Chettan 2', cursive;
         width: 100%;
@@ -216,7 +262,7 @@
       #nav a {
         float: left;
         display: block;
-        color: #363434;
+        color: #ffffff;
         text-align: center;
         padding: 35px;
         text-decoration: none;
@@ -224,8 +270,8 @@
       }
     
       #nav a:hover {
-        background-color: rgb(197, 177, 138);
-        color: black;
+        background-color: rgb(194, 75, 15);
+        color: rgb(255, 255, 255);
       }
     
     }
