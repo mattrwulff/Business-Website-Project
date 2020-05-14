@@ -1,3 +1,4 @@
+//this is for the nav when you schroll down
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -8,7 +9,4 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
     document.getElementById("nav").style.visibility="visible";
   }
-}
-function sumit(){
-  alert("your message was sent")
 }
